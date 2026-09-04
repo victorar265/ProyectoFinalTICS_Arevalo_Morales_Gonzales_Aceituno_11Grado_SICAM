@@ -66,4 +66,3 @@ document.querySelectorAll('[data-open-tab]').forEach((link) => {
     }
   });
 });
- 
