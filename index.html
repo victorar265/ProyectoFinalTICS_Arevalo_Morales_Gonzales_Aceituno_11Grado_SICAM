@@ -3,8 +3,8 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>S.I.C.A.M. — ACSEE Ingeniería × IRTRA Petapa</title>
-<meta name="description" content="S.I.C.A.M. — Sistema Integrado de Control de Acceso Mecanizado. Desarrollado por ACSEE Ingeniería en alianza con IRTRA Petapa. Proyecto Final de Robótica y Tecnología Aplicada, Colegio Capouilliez.">
+<title>S.I.C.A.M. — IRTRA Petapa × Colegio Capouilliez</title>
+<meta name="description" content="S.I.C.A.M. — Sistema Integrado de Control de Acceso Mecanizado desarrollado para IRTRA Petapa. Proyecto Final de Robótica y Tecnología Aplicada, Colegio Capouilliez.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
@@ -25,10 +25,10 @@
           <circle cx="24" cy="8" r="1.6" fill="currentColor"/>
         </svg>
       </span>
-      <span class="brand-text">ACSEE <span class="brand-sub">Ingeniería</span></span>
+      <span class="brand-text">S.I.C.A.M. <span class="brand-sub">IRTRA Petapa</span></span>
     </a>
     <nav class="nav-links" aria-label="Navegación principal">
-      <a href="#consola" data-open-tab="panel-problematica">Problemática</a>
+      <a href="#problematica">Problemática &amp; ODS</a>
       <a href="#consola" data-open-tab="panel-prototipo">Prototipo</a>
       <a href="#consola" data-open-tab="panel-investigacion">Investigación</a>
       <a href="#consola" data-open-tab="panel-multimedia">Multimedia</a>
@@ -38,7 +38,7 @@
     </button>
   </div>
   <nav class="nav-links-mobile" id="nav-links-mobile" aria-label="Navegación móvil">
-    <a href="#consola" data-open-tab="panel-problematica">Problemática</a>
+    <a href="#problematica">Problemática &amp; ODS</a>
     <a href="#consola" data-open-tab="panel-prototipo">Prototipo</a>
     <a href="#consola" data-open-tab="panel-investigacion">Investigación</a>
     <a href="#consola" data-open-tab="panel-multimedia">Multimedia</a>
@@ -47,29 +47,65 @@
 
 <main>
 
-  <!-- ============ HERO ============ -->
+  <!-- ============ HERO & CARÁTULA ============ -->
   <section class="hero">
     <div class="hero-grid" aria-hidden="true"></div>
     <div class="hero-scanline" aria-hidden="true"></div>
     <div class="hero-inner">
-      <p class="hero-context">Alianza técnica ACSEE Ingeniería &amp; IRTRA Petapa</p>
+      <p class="hero-context">Proyecto Final de Robótica y Tecnología Aplicada — Colegio Capouilliez × IRTRA Petapa</p>
       <h1 class="hero-title">S.I.C.A.M.</h1>
       <p class="hero-acronym">Sistema Integrado de Control de Acceso Mecanizado</p>
       <p class="hero-subtitle">
-        Un sistema desarrollado por ACSEE, empresa de ingeniería en
-        automatización aplicada a sistemas electromecánicos de
-        entretenimiento, que automatiza la validación de altura, el control
-        de acceso y el inicio del recorrido en atracciones mecánicas de
-        IRTRA Petapa.
+        Un sistema automatizado de control de acceso, validación biomecánica de seguridad e inicio operativo, diseñado para atracciones mecánicas de IRTRA Petapa.
       </p>
       <div class="hero-actions">
-        <a href="#consola" class="btn btn-primary" data-open-tab="panel-prototipo">Explorar el sistema</a>
-        <a href="#consola" class="btn btn-ghost" data-open-tab="panel-investigacion">Leer la investigación</a>
+        <a href="#consola" class="btn btn-primary" data-open-tab="panel-prototipo">Explorar la simulación</a>
+        <a href="#consola" class="btn btn-ghost" data-open-tab="panel-investigacion">Leer investigación (PDF)</a>
+      </div>
+
+      <!-- PROBLEMÁTICA Y ODS EN LA CARÁTULA -->
+      <div class="hero-problematica" id="problematica">
+        <div class="panel-grid">
+          <div>
+            <h2>Problemática &amp; Funcionamiento</h2>
+            <h3>Qué es S.I.C.A.M.</h3>
+            <p>
+              S.I.C.A.M. es un sistema automatizado de control de acceso, validación de seguridad e inicio operativo, orientado a atracciones mecánicas como las instalaciones de IRTRA Petapa. Su objetivo es optimizar la experiencia del visitante y maximizar la seguridad operativa automatizando tres fases clave del proceso de abordaje.
+            </p>
+            <h3>Cómo funciona</h3>
+            <p>
+              El sistema valida de forma biomecánica la altura del visitante, controla el acceso físico mediante talanqueras motorizadas y ejecuta una secuencia interactiva de inicio del recorrido, eliminando el margen de error de la verificación manual.
+            </p>
+          </div>
+          <div class="ods-stack">
+            <div class="ods-card" data-ods="9">
+              <span class="ods-number">ODS 9</span>
+              <span class="ods-title">Industria, innovación e infraestructura</span>
+              <p class="ods-text">
+                Promueve la modernización de la infraestructura recreativa mediante microcontroladores eficientes y componentes electrónicos accesibles.
+              </p>
+            </div>
+            <div class="ods-card" data-ods="3">
+              <span class="ods-number">ODS 3</span>
+              <span class="ods-title">Salud y bienestar</span>
+              <p class="ods-text">
+                Garantiza la integridad física de los usuarios al eliminar el margen de error humano en la verificación de límites de estatura en atracciones de alto riesgo.
+              </p>
+            </div>
+            <div class="ods-card" data-ods="8">
+              <span class="ods-number">ODS 8</span>
+              <span class="ods-title">Trabajo decente y crecimiento económico</span>
+              <p class="ods-text">
+                Optimiza las tareas de los operadores del parque, permitiéndoles enfocarse en la supervisión general y la atención al cliente.
+              </p>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   </section>
 
-  <!-- ============ CENTRO DE MANDO (pestañas) ============ -->
+  <!-- ============ CENTRO DE MANDO (pestañas ampliado) ============ -->
   <section class="console" id="consola">
     <div class="console-inner">
       <div class="console-head">
@@ -78,129 +114,70 @@
       </div>
 
       <div class="console-body">
-        <!-- Selector de módulos -->
+        <!-- Selector de módulos más grande -->
         <div class="module-nav" role="tablist" aria-label="Módulos del proyecto" aria-orientation="vertical">
-          <button type="button" class="module-btn is-active" role="tab" aria-selected="true" tabindex="0" aria-controls="panel-problematica" id="tab-problematica" data-target="panel-problematica">
+          <button type="button" class="module-btn is-active" role="tab" aria-selected="true" tabindex="0" aria-controls="panel-prototipo" id="tab-prototipo" data-target="panel-prototipo">
             <span class="module-indicator" aria-hidden="true"></span>
             <span class="module-index">01</span>
-            <span class="module-name">Problemática &amp; ODS</span>
-          </button>
-          <button type="button" class="module-btn" role="tab" aria-selected="false" tabindex="-1" aria-controls="panel-prototipo" id="tab-prototipo" data-target="panel-prototipo">
-            <span class="module-indicator" aria-hidden="true"></span>
-            <span class="module-index">02</span>
-            <span class="module-name">Prototipo &amp; simulación</span>
+            <span class="module-name">Prototipo &amp; Simulación en Vivo</span>
           </button>
           <button type="button" class="module-btn" role="tab" aria-selected="false" tabindex="-1" aria-controls="panel-investigacion" id="tab-investigacion" data-target="panel-investigacion">
             <span class="module-indicator" aria-hidden="true"></span>
-            <span class="module-index">03</span>
-            <span class="module-name">Investigación formal</span>
+            <span class="module-index">02</span>
+            <span class="module-name">Investigación Formal Completa</span>
           </button>
           <button type="button" class="module-btn" role="tab" aria-selected="false" tabindex="-1" aria-controls="panel-multimedia" id="tab-multimedia" data-target="panel-multimedia">
             <span class="module-indicator" aria-hidden="true"></span>
-            <span class="module-index">04</span>
-            <span class="module-name">Infografía &amp; podcast</span>
+            <span class="module-index">03</span>
+            <span class="module-name">Infografía Ejecutiva &amp; Podcast</span>
           </button>
         </div>
 
-        <!-- Panel de contenido -->
+        <!-- Panel de contenido ampliado -->
         <div class="module-panels">
 
-          <div class="module-panel is-active" role="tabpanel" id="panel-problematica" aria-labelledby="tab-problematica">
-            <div class="panel-grid">
-              <div>
-                <h3>Qué es S.I.C.A.M.</h3>
-                <p>
-                  S.I.C.A.M. es un sistema automatizado de control de acceso,
-                  validación de seguridad e inicio operativo, orientado a
-                  atracciones mecánicas como las instalaciones de IRTRA
-                  Petapa. Su objetivo es optimizar la experiencia del
-                  visitante y maximizar la seguridad operativa automatizando
-                  tres fases clave del proceso de abordaje.
-                </p>
-                <h3>Cómo funciona</h3>
-                <p>
-                  El sistema valida de forma biomecánica la altura del
-                  visitante, controla el acceso físico mediante talanqueras
-                  motorizadas y ejecuta una secuencia interactiva de inicio
-                  del recorrido, eliminando el margen de error de la
-                  verificación manual.
-                </p>
-              </div>
-              <div class="ods-stack">
-                <div class="ods-card" data-ods="9">
-                  <span class="ods-number">ODS 9</span>
-                  <span class="ods-title">Industria, innovación e infraestructura</span>
-                  <p class="ods-text">
-                    Promueve la modernización de la infraestructura
-                    recreativa mediante microcontroladores eficientes y
-                    componentes electrónicos accesibles.
-                  </p>
-                </div>
-                <div class="ods-card" data-ods="3">
-                  <span class="ods-number">ODS 3</span>
-                  <span class="ods-title">Salud y bienestar</span>
-                  <p class="ods-text">
-                    Garantiza la integridad física de los usuarios al
-                    eliminar el margen de error humano en la verificación de
-                    límites de estatura en atracciones de alto riesgo.
-                  </p>
-                </div>
-                <div class="ods-card" data-ods="8">
-                  <span class="ods-number">ODS 8</span>
-                  <span class="ods-title">Trabajo decente y crecimiento económico</span>
-                  <p class="ods-text">
-                    Optimiza las tareas de los operadores del parque,
-                    permitiéndoles enfocarse en la supervisión general y la
-                    atención al cliente.
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="module-panel" role="tabpanel" id="panel-prototipo" aria-labelledby="tab-prototipo" hidden>
+          <!-- PANEL PROTOTIPO Y SIMULACIÓN -->
+          <div class="module-panel is-active" role="tabpanel" id="panel-prototipo" aria-labelledby="tab-prototipo">
             <h3>Demostración del circuito simulado</h3>
             <p class="panel-lead">
-              Simulación funcional del prototipo construida y probada en
-              Tinkercad antes del montaje físico del circuito.
+              Simulación funcional del prototipo construida y probada en Tinkercad antes del montaje físico del circuito.
             </p>
             <div class="demo-layout">
-              <div class="video-frame">
-                <video controls preload="metadata" poster="">
-                  <source src="recursos/IRTRA.mp4" type="video/mp4">
-                  Tu navegador no puede reproducir este video. Puedes
-                  descargarlo directamente desde
-                  <a href="recursos/IRTRA.mp4">recursos/IRTRA.mp4</a>.
-                </video>
+              <div class="video-container-featured">
+                <div class="video-frame">
+                  <video controls preload="metadata" poster="">
+                    <source src="recursos/IRTRA.mp4" type="video/mp4">
+                    Tu navegador no puede reproducir este video. Puedes descargarlo directamente desde
+                    <a href="recursos/IRTRA.mp4">recursos/IRTRA.mp4</a>.
+                  </video>
+                </div>
               </div>
               <div class="spec-sheet">
                 <h4 class="spec-title">Ficha técnica del circuito</h4>
                 <ul class="spec-list">
-                  <li><span class="spec-name">Arduino Uno R3</span><span class="spec-role">unidad de control</span></li>
-                  <li><span class="spec-name">Sensor ultrasónico HC-SR04</span><span class="spec-role">medición de distancia</span></li>
-                  <li><span class="spec-name">Sensor PIR</span><span class="spec-role">detección de movimiento</span></li>
-                  <li><span class="spec-name">Fotorresistencia (LDR)</span><span class="spec-role">condición de luz ambiental</span></li>
-                  <li><span class="spec-name">LED RGB</span><span class="spec-role">alerta visual por estado</span></li>
-                  <li><span class="spec-name">Buzzer piezoeléctrico</span><span class="spec-role">alerta sonora</span></li>
-                  <li><span class="spec-name">Push buttons ×2</span><span class="spec-role">confirmación / reinicio manual</span></li>
-                  <li><span class="spec-name">Resistencias 220Ω / 10kΩ</span><span class="spec-role">protección de línea</span></li>
+                  <li><span class="spec-name">Arduino Uno R3</span><span class="spec-role">Unidad de control principal</span></li>
+                  <li><span class="spec-name">HC-SR04</span><span class="spec-role">Sensor ultrasónico de altura</span></li>
+                  <li><span class="spec-name">Sensor PIR</span><span class="spec-role">Detección de presencia</span></li>
+                  <li><span class="spec-name">LDR</span><span class="spec-role">Medición de luz ambiental</span></li>
+                  <li><span class="spec-name">LED RGB</span><span class="spec-role">Indicador de estado visual</span></li>
+                  <li><span class="spec-name">Buzzer piezo</span><span class="spec-role">Alertas sonoras de sistema</span></li>
+                  <li><span class="spec-name">Push buttons ×2</span><span class="spec-role">Confirmación y reinicio manual</span></li>
+                  <li><span class="spec-name">Resistencias</span><span class="spec-role">Protección de línea (220Ω / 10kΩ)</span></li>
                 </ul>
               </div>
             </div>
           </div>
 
+          <!-- PANEL INVESTIGACIÓN FORMAL -->
           <div class="module-panel" role="tabpanel" id="panel-investigacion" aria-labelledby="tab-investigacion" hidden>
-            <h3>Documentación formal</h3>
+            <h3>Documentación formal de la investigación</h3>
             <p class="panel-lead">
-              Investigación completa sobre la problemática, el marco teórico
-              y la propuesta de automatización desarrollada para IRTRA
-              Petapa.
+              Investigación completa sobre la problemática, el marco teórico y la propuesta de automatización desarrollada para IRTRA Petapa.
             </p>
-            <div class="doc-viewer">
-              <embed src="recursos/Investigacion_IRTRA.pdf" type="application/pdf" class="pdf-embed">
+            <div class="doc-viewer doc-viewer-large">
+              <embed src="recursos/Investigacion_IRTRA.pdf" type="application/pdf" class="pdf-embed pdf-embed-large">
               <p class="doc-fallback">
-                Si el documento no se muestra, tu navegador puede estar
-                bloqueando la vista previa de PDF.
+                Si el documento no se muestra, tu navegador puede estar bloqueando la vista previa de PDF.
                 <a href="recursos/Investigacion_IRTRA.pdf" target="_blank" rel="noopener">Ábrelo en una pestaña nueva</a>.
               </p>
             </div>
@@ -209,31 +186,29 @@
             </a>
           </div>
 
+          <!-- PANEL MULTIMEDIA -->
           <div class="module-panel" role="tabpanel" id="panel-multimedia" aria-labelledby="tab-multimedia" hidden>
-            <div class="panel-grid">
-              <div>
+            <div class="multimedia-stack">
+              <div class="multimedia-block">
                 <h3>Infografía ejecutiva</h3>
                 <p class="panel-lead">
-                  Resumen visual del problema, la solución y los resultados
-                  esperados del proyecto.
+                  Resumen visual del problema, la solución y los resultados esperados del proyecto.
                 </p>
-                <div class="doc-viewer doc-viewer-compact">
-                  <embed src="recursos/Infografia_IRTRA.pdf" type="application/pdf" class="pdf-embed">
+                <div class="doc-viewer doc-viewer-infografia">
+                  <embed src="recursos/Infografia_IRTRA.pdf" type="application/pdf" class="pdf-embed pdf-embed-infografia">
                   <p class="doc-fallback">
-                    Si tu infografía es una imagen en lugar de un PDF,
-                    reemplaza el <code>&lt;embed&gt;</code> por
-                    <code>&lt;img src="recursos/Infografia_IRTRA.jpg"&gt;</code>.
+                    Si tu infografía es una imagen en lugar de un PDF, reemplaza el <code>&lt;embed&gt;</code> por <code>&lt;img src="recursos/Infografia_IRTRA.jpg"&gt;</code>.
                     <a href="recursos/Infografia_IRTRA.pdf" target="_blank" rel="noopener">Ábrela en una pestaña nueva</a>.
                   </p>
                 </div>
               </div>
-              <div>
+
+              <div class="multimedia-block">
                 <h3>Podcast informativo</h3>
                 <p class="panel-lead">
-                  Conversación en formato podcast sobre el desarrollo del
-                  proyecto y su impacto en IRTRA Petapa.
+                  Conversación en formato podcast sobre el desarrollo del proyecto y su impacto en IRTRA Petapa.
                 </p>
-                <div class="video-frame video-frame-embed">
+                <div class="video-frame video-frame-podcast">
                   <!-- Reemplaza VIDEO_ID_AQUI por el ID del video de YouTube -->
                   <iframe
                     src="https://www.youtube.com/embed/VIDEO_ID_AQUI"
