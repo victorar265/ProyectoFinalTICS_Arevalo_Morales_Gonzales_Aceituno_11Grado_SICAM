@@ -1,5 +1,4 @@
 /* ==========================================================================
-   TOKENS
    Paleta: base grafito, acento ámbar (señalización de parque/seguridad
    industrial) y acento cian (estado/telemetría). Tipografía: Space Grotesk
    para titulares técnicos, Inter para cuerpo, IBM Plex Mono para lecturas
@@ -268,6 +267,12 @@ ul { margin: 0; padding: 0; list-style: none; }
 }
 .btn-ghost:hover { border-color: var(--amber); color: var(--amber); transform: translateY(-2px); }
 .btn-download { margin-top: 2em; font-size: 1.1rem; padding: 1.1em 2.2em; }
+.download-row {
+  display: flex;
+  gap: 1em;
+  flex-wrap: wrap;
+}
+.download-row .btn-download { margin-top: 2em; }
 
 /* ==========================================================================
    CENTRO DE MANDO (pestañas / módulos ampliado)
